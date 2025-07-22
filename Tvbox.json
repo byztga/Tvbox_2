@@ -1,46 +1,279 @@
-[
-  {"name": "🍚 饭太硬", "url": "http://www.饭太硬.com/tv"},
-  {"name": "🍚 饭太硬备用", "url": "https://gitee.com/xxoooo/fan/raw/master/in.bmp"},
-  {"name": "🎩 巧技", "url": "http://cdn.qiaoji8.com/tvbox.json"},
-  {"name": "📦 盒子迷", "url": "http://etaishun.com/m3u8/hzm.json"},
-  {"name": "🦹‍♂️ 不良帅", "url": "https://notabug.org/qizhen15800/My9394/raw/master/不良帅.json"},
-  {"name": "📱 小米", "url": "http://miqk.cc/小米/DEMO.json"},
-  {"name": "🎬 OK影视", "url": "http://38.165.20.168/柒豪4K.json"},
-  {"name": "🏰 驸马线路", "url": "http://fmys.top/fmys.json"},
-  {"name": "🎥 影迷", "url": "https://jihulab.com/dimaston1/4k/-/raw/main/tongyong.json"},
-  {"name": "💥 OK吊炸天", "url": "http://ok321.top/tv"},
-  {"name": "🔗 OK线路", "url": "https://gitee.com/okjack/okk/raw/master/op.txt"},
-  {"name": "🔄 PG线路", "url": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json"},
-  {"name": "☠️ 毒盒", "url": "http://毒盒.com/tv"},
-  {"name": "😊 天天开心", "url": "http://rihou.cc:55/天天开心"},
-  {"name": "🧙‍♂️ 道长线路", "url": "https://pastebin.com/raw/5NHaxyGR"},
-  {"name": "🌸 香佬线路", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/XYQTVBox/xyq.json"},
-  {"name": "🎀 巧儿", "url": "http://pandown.pro/tvbox/tvbox.json"},
-  {"name": "🐱 肥猫", "url": "http://肥猫.com"},
-  {"name": "🐴 小马线路", "url": "https://szyyds.cn/tv/x.json"},
-  {"name": "🧚‍♀️ 小仙影视", "url": "https://jihulab.com/shenxianyingshi/sxys/-/raw/main/beiyong.json"},
-  {"name": "🔄 码上放生", "url": "https://www.bestpvp.site/关注码上放生/时光机"},
-  {"name": "☁️ 高天流云", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"},
-  {"name": "✨ 天微", "url": "https://7337.kstore.space/twvip/自用测试.json"},
-  {"name": "👦 王二小", "url": "http://tvbox.王二小放牛娃.top"},
-  {"name": "👦 王小二", "url": "http://tvbox.王小二.top/"},
-  {"name": "😎 潇洒", "url": "https://9877.kstore.space/AnotherD/api.json"},
-  {"name": "🐟 摸鱼儿", "url": "http://我不是.摸鱼儿.top"},
-  {"name": "🕺 俊哥", "url": "http://home.jundie.top:81/top98.json"},
-  {"name": "🚚 运输车", "url": "https://weixine.net/ysc.json"},
-  {"name": "🐉 青龙线路", "url": "https://gitee.com/yiwu369/6758/raw/master/1.json"},
-  {"name": "🐯 小虎斑", "url": "http://hb.小虎斑.site:25252/仅供测试"},
-  {"name": "🌿 春盈天下", "url": "https://盒子迷.top/春盈天下"},
-  {"name": "🎵 讴歌", "url": "https://tv.nxog.top?&WRh"},
-  {"name": "🎶 欧歌", "url": "https://欧歌.v.nxog.top/m/"},
-  {"name": "☁️ 4K云盘", "url": "https://9xi4o.tk/0725.json"},
-  {"name": "🌬️ 南风", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json"},
-  {"name": "💐 香雅情", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"},
-  {"name": "🎭 短剧频道", "url": "http://box.ufuzi.com/tv/qq/短剧频道/api.json"},
-  {"name": "🖍️ 动漫频道", "url": "https://www.yingm.cc/dm/dm.json"},
-  {"name": "🧸 少儿频道", "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer"},
-  {
-    "name": "🚀 *****",
-    "url": "https://raw.githubusercontent.com/byztga/tvbox/refs/heads/master/99188.json"
-  }
-]
+{
+  "sites": [
+    {
+      "key": "fan_tai_ying",
+      "name": "🍚 饭太硬",
+      "type": 3,
+      "api": "http://www.饭太硬.net/tv"
+    },
+    {
+      "key": "fan_tai_ying_backup",
+      "name": "🍚 饭太硬备用",
+      "type": 3,
+      "api": "https://gitee.com/xxoooo/fan/raw/master/in.bmp"
+    },
+    {
+      "key": "qiao_ji",
+      "name": "🎩 巧技",
+      "type": 3,
+      "api": "http://cdn.qiaoji8.com/tvbox.json"
+    },
+    {
+      "key": "box_fan",
+      "name": "📦 盒子迷",
+      "type": 3,
+      "api": "http://etaishun.com/m3u8/hzm.json"
+    },
+    {
+      "key": "bu_liang_shuai",
+      "name": "🦹‍♂️ 不良帅",
+      "type": 3,
+      "api": "https://notabug.org/qizhen15800/My9394/raw/master/%E4%B8%8D%E8%89%AF%E5%B8%85.json"
+    },
+    {
+      "key": "xiao_mi",
+      "name": "📱 小米",
+      "type": 3,
+      "api": "http://miqk.cc/小米/DEMO.json"
+    },
+    {
+      "key": "ok_movie",
+      "name": "🎬 OK影视",
+      "type": 3,
+      "api": "http://38.165.20.168/%E6%9F%92%E8%B1%AA4K.json"
+    },
+    {
+      "key": "fu_ma_line",
+      "name": "🏰 驸马线路",
+      "type": 3,
+      "api": "http://fmys.top/fmys.json"
+    },
+    {
+      "key": "movie_fan",
+      "name": "🎥 影迷",
+      "type": 3,
+      "api": "https://jihulab.com/dimaston1/4k/-/raw/main/tongyong.json"
+    },
+    {
+      "key": "ok_explosive",
+      "name": "💥 OK吊炸天",
+      "type": 3,
+      "api": "http://ok321.top/tv"
+    },
+    {
+      "key": "ok_line",
+      "name": "🔗 OK线路",
+      "type": 3,
+      "api": "https://gitee.com/okjack/okk/raw/master/op.txt"
+    },
+    {
+      "key": "pg_line",
+      "name": "🔄 PG线路",
+      "type": 3,
+      "api": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json"
+    },
+    {
+      "key": "happy_everyday",
+      "name": "😊 天天开心",
+      "type": 3,
+      "api": "http://rihou.cc:55/%E5%A4%A9%E5%A4%A9%E5%BC%80%E5%BF%83"
+    },
+    {
+      "key": "dao_zhang_line",
+      "name": "🧙‍♂️ 道长线路",
+      "type": 3,
+      "api": "https://pastebin.com/raw/5NHaxyGR"
+    },
+    {
+      "key": "xiang_lao_line",
+      "name": "🌸 香佬线路",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yydfys/yydf/main/XYQTVBox/xyq.json"
+    },
+    {
+      "key": "qiao_er",
+      "name": "🎀 巧儿",
+      "type": 3,
+      "api": "http://pandown.pro/tvbox/tvbox.json"
+    },
+    {
+      "key": "fat_cat",
+      "name": "🐱 肥猫",
+      "type": 3,
+      "api": "http://xn--v0qj70e.com"
+    },
+    {
+      "key": "pony_line",
+      "name": "🐴 小马线路",
+      "type": 3,
+      "api": "https://szyyds.cn/tv/x.json"
+    },
+    {
+      "key": "fairy_movie",
+      "name": "🧚‍♀️ 小仙影视",
+      "type": 3,
+      "api": "https://jihulab.com/shenxianyingshi/sxys/-/raw/main/beiyong.json"
+    },
+    {
+      "key": "release_life",
+      "name": "🔄 码上放生",
+      "type": 3,
+      "api": "https://www.bestpvp.site/%E5%85%B3%E6%B3%A8%E7%A0%81%E4%B8%8A%E6%94%BE%E7%94%9F/%E6%97%B6%E5%85%89%E6%9C%BA"
+    },
+    {
+      "key": "gao_tian",
+      "name": "☁️ 高天流云",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+    },
+    {
+      "key": "tian_wei",
+      "name": "✨ 天微",
+      "type": 3,
+      "api": "https://7337.kstore.space/twvip/%E8%87%AA%E7%94%A8%E6%B5%8B%E8%AF%95.json"
+    },
+    {
+      "key": "wang_erxiao",
+      "name": "👦 王二小",
+      "type": 3,
+      "api": "http://tvbox.%E7%8E%8B%E4%BA%8C%E5%B0%8F%E6%94%BE%E7%89%9B%E5%A8%83.top"
+    },
+    {
+      "key": "wang_xiaoer",
+      "name": "👦 王小二",
+      "type": 3,
+      "api": "http://tvbox.%E7%8E%8B%E5%B0%8F%E4%BA%8C.top/"
+    },
+    {
+      "key": "xiao_sa",
+      "name": "😎 潇洒",
+      "type": 3,
+      "api": "https://9877.kstore.space/AnotherD/api.json"
+    },
+    {
+      "key": "mo_yu_er",
+      "name": "🐟 摸鱼儿",
+      "type": 3,
+      "api": "http://%E6%88%91%E4%B8%8D%E6%98%AF.%E6%91%B8%E9%B1%BC%E5%84%BF.top"
+    },
+    {
+      "key": "jun_ge",
+      "name": "🕺 俊哥",
+      "type": 3,
+      "api": "http://home.jundie.top:81/top98.json"
+    },
+    {
+      "key": "transport_car",
+      "name": "🚚 运输车",
+      "type": 3,
+      "api": "https://weixine.net/ysc.json"
+    },
+    {
+      "key": "qing_long_line",
+      "name": "🐉 青龙线路",
+      "type": 3,
+      "api": "https://gitee.com/yiwu369/6758/raw/master/1.json"
+    },
+    {
+      "key": "tiger_cub",
+      "name": "🐯 小虎斑",
+      "type": 3,
+      "api": "http://hb.%E5%B0%8F%E8%99%8E%E6%96%91.site:25252/%E4%BB%85%E4%BE%9B%E6%B5%8B%E8%AF%95"
+    },
+    {
+      "key": "spring_sky",
+      "name": "🌿 春盈天下",
+      "type": 3,
+      "api": "https://%E7%9B%92%E5%AD%90%E8%BF%B7.top/%E6%98%A5%E7%9B%88%E5%A4%A9%E4%B8%8B"
+    },
+    {
+      "key": "ou_ge",
+      "name": "🎵 讴歌",
+      "type": 3,
+      "api": "https://tv.nxog.top?&WRh"
+    },
+    {
+      "key": "europe_song",
+      "name": "🎶 欧歌",
+      "type": 3,
+      "api": "https://%E6%AC%A7%E6%AD%8C.v.nxog.top/m/"
+    },
+    {
+      "key": "cloud_disk_4k",
+      "name": "☁️ 4K云盘",
+      "type": 3,
+      "api": "https://9xi4o.tk/0725.json"
+    },
+    {
+      "key": "south_wind",
+      "name": "🌬️ 南风",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/refs/heads/main/XC.json"
+    },
+    {
+      "key": "xiang_ya_qing",
+      "name": "💐 香雅情",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+    },
+    {
+      "key": "drama_channel",
+      "name": "🎭 短剧频道",
+      "type": 3,
+      "api": "http://box.ufuzi.com/tv/qq/%E7%9F%AD%E5%89%A7%E9%A2%91%E9%81%93/api.json"
+    },
+    {
+      "key": "anime_channel",
+      "name": "🖍️ 动漫频道",
+      "type": 3,
+      "api": "https://www.yingm.cc/dm/dm.json"
+    },
+    {
+      "key": "kids_channel",
+      "name": "🧸 少儿频道",
+      "type": 3,
+      "api": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymshaoer"
+    },
+    {
+      "key": "source_99188",
+      "name": "🚀 99188源",
+      "type": 3,
+      "api": "https://raw.githubusercontent.com/byztga/tvbox/refs/heads/master/99188.json"
+    }
+  ],
+  "parses": [
+    {
+      "name": "默认解析",
+      "type": "Json",
+      "url": "",
+      "ext": {}
+    }
+  ],
+  "flags": [],
+  "spider": "",
+  "wallpaper": "https://source.unsplash.com/random/1920x1080/?nature",
+  "liveLimit": 6,
+  "lives": [
+    {
+      "name": "央视频道",
+      "url": "https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+      "type": 0,
+      "epg": "https://ghproxy.com/https://raw.githubusercontent.com/YanG-1989/m3u/main/央视频道.xml"
+    }
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": {
+        "mediacodec": 0
+      }
+    },
+    {
+      "group": "硬解码",
+      "options": {
+        "mediacodec": 1
+      }
+    }
+  ],
+  "ads": []
+}
